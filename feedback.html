@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>NЁRDS DESIGN STUDIO</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+  </head>   
+  <body class="feedback-page">
+    <header class="main-header">
+      <div class="container">
+        <div class="main-header-top">     
+          <div class="logo">
+            <a href="index.html" class="logo-link" title="NЁRDS DESIGN STUDIO">
+              <img  class="logo-img" src="img/nerds-logo.png" width="160" height="65" alt="NЁRDS DESIGN STUDIO">
+            </a>
+          </div>  
+          <nav class="main-navigation">
+            <a class="main-navigation-item" href="#" title="Студия">Студия</a>
+            <a class="main-navigation-item" href="#" title="Клиенты">Клиенты</a>
+            <a class="main-navigation-item" href="catalog.html" title="Магазин">Магазин</a>
+            <a class="main-navigation-item" href="#" title="Контакты">Контакты</a>
+          </nav>
+          <a class="shopping-cart" href="#" title="Корзина">Корзина</a>
+        </div> 
+      </div>  
+    </header> 
+
+    <div class="wrapper">    
+      <form class="feedback-form" method="post" action="https://echo.htmlacademy.ru">
+        <div class="field-layout">  
+          <label class="label-name" for="name">Ваше имя:
+            <input type="text" name="name" id="name" placeholder="Представьтесь, пожалуйста" required>
+          </label>
+          <label class="label-email" for="e-mail">Ваш e-mail:
+            <input type="text" name="e-mail" id="e-mail" placeholder="Для отправки ответа" required>
+          </label>
+        </div>  
+        <label class="label-letter" for="letter">Текст письма:
+          <textarea id="letter" placeholder="В свободной форме" required></textarea>
+        </label> 
+        <button class="btn btn-sent" type="submit" title="Отправить">Отправить</button>
+      </form>
+    </div>
+
+    <div class="map" id="interactive-map">
+      <section class="contacts">
+        <b class="contacts-title">NЁRDS DESIGN STUDIO</b>
+        <span class="contacts-adress">191186, Санкт-Петербург,<br> ул. Б. Конюшенная, д. 19/8</span>
+        <span class="contacts-phone">тел. 
+          <a class="contacts-phone-number" href="tel:+7812275-75-75">+7 (812) 275-75-75</a>
+        </span>
+      </section>
+    </div>
+
+    <footer class="page-footer">
+      <div class="container">  
+        <div class="page-footer-layout"> 
+          <div class="social">     
+            <h2 class="visually-hidden">Подписывайтесь на нас в социальных сетях</h2>
+            <a href="#" class="social-btn social-btn-vkontakte" tabindex="0" title="В контакте" >В контакте</a>
+            <a href="#" class="social-btn social-btn-facebook" tabindex="0" title="Facebook">Facebook</a>
+            <a href="#" class="social-btn social-btn-instagram" tabindex="0"  title="Instagram">Instagram</a>
+          </div>
+          <div class="special-offer">
+            <b class="special-offer-title">Давайте дружить, это выгодно!</b>
+            <span class="special-offer-text">Скидка 10% для друзей из социальных сетей.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af088f68b160acfe26fd52dd6c322f93896a7bd52f9d72c7eb1b9c57daedb114f&amp;width=100%25&amp;height=416&amp;lang=ru_RU&amp;scroll=true&id=interactive-map"></script>
+  </body>
+</html>
